@@ -1,1 +1,4 @@
 # Model-Generation-via-Base-Topology
+We propose a novel method for 3D object generation using a CNN with a tailored loss function. Employing a single input-ground truth pair, we perform iterative forward passes through the CNN, updating weights based on the calculated loss after each pass. This loss function combines a topological loss, ensuring the generated object shares the desired structure from the ground truth, with a geometric discrepancy term, preserving similarity to the input object. This approach empowers users to steer the generation process towards a specific topology while incorporating the geometry of a starting point. We investigate the efficacy of this method and its potential for facilitating creative 3D object generation.
+
+<img class="image-align-left" src="images/input_norm.png"/><img class="image-align-left" src="images/target_norm.png"/>
