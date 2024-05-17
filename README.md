@@ -33,6 +33,10 @@ pip install ipython
 
 # Install POT (Optimal Transport library)
 pip install pot
+
+# For visualization
+pip install scipy
+pip install open3d
 ```
 
 
